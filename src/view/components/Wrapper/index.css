@@ -1,0 +1,14 @@
+@import 'view/styles/variables';
+
+.wrapper {
+	box-sizing: content-box;
+	margin: 0 auto;
+	max-width: $site-width;
+	padding: 0 lines( 1 );
+
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}

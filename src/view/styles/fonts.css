@@ -1,0 +1,11 @@
+/*
+@font-face {
+	font-family: 'FONT NAME';
+	src: url( '~assets/fonts/FONT_NAME.eot' );
+	src:
+		url( '~assets/fonts/FONT_NAME.eot#iefix' ) format( 'embedded-opentype' ),
+		url( '~assets/fonts/FONT_NAME.woff2' ) format( 'woff2' ),
+		url( '~assets/fonts/FONT_NAME.woff' ) format( 'woff' ),
+		url( '~assets/fonts/FONT_NAME.ttf' ) format( 'truetype' );
+}
+*/

@@ -1,0 +1,55 @@
+@import 'view/styles/variables';
+@import 'view/styles/baseline';
+
+body {
+	@include font-size( 16px );
+	background: $color-light;
+	color: $color-dark;
+	font-family: 'Digital 7';
+}
+
+h1 {
+	@include font-size( 28px );
+}
+
+h2 {
+	@include font-size( 26px );
+}
+
+h3 {
+	@include font-size( 24px );
+}
+
+h4 {
+	@include font-size( 22px );
+}
+
+h5 {
+	@include font-size( 20px );
+}
+
+h6 {
+	@include font-size( 18px );
+}
+
+ol, ul {
+	list-style: none;
+}
+
+small {
+	@include font-size( 14px );
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+hr {
+	background: $color-dark;
+	height: 1px;
+	margin: lines( 1 ) 0;
+}

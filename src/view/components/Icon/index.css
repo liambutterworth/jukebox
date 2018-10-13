@@ -1,0 +1,10 @@
+.icon {
+	height: 100%;
+	width: 100%;
+
+	svg {
+		height: 100%;
+		transition: fill 200ms;
+		width: 100%;
+	}
+}
